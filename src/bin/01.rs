@@ -44,7 +44,6 @@ fn parse_line(line: &str, regex: &str) -> u32 {
         
     }
     let result = dec * 10 + ones;
-    println!("{}", result);
     return result;
 
 }

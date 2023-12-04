@@ -24,7 +24,6 @@ fn parse_line(line: &str) -> i32 {
     const MAX_BLUE: i32 = 14;
     const MAX_RED: i32 = 12;
     const MAX_GREEN: i32 = 13;
-    let mut i = 0;
     let red = Regex::new(r"(\d+) red").unwrap();
     let green = Regex::new(r"(\d+) green").unwrap();
     let blue = Regex::new(r"(\d+) blue").unwrap();
